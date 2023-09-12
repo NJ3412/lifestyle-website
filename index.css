@@ -1,0 +1,109 @@
+  /* HEADER */
+
+
+.title {
+  position: relative;
+  font-size: 4vw; /* The text size will be 5% of the viewport width */
+  top: 50px; /* Adjust this value as needed */
+}
+
+.intro {
+  position: relative;
+  font-style: italic;
+  top: 20px;
+  font-size: 1vw;
+}
+
+.center-content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 1; 
+  background-color: mintgreen;
+}
+
+.navigation {
+    position: relative;
+    top: 30px;
+    color: #604c9e;
+    font-size: 1vw;
+
+    padding-left: 40px; /* Add space on the left side */
+    padding-right: 40px; 
+    color: inherit;
+
+}
+
+.p3 {
+  font-family: Gill Sans, sans-serif
+  
+}
+
+
+  /* TEXT BEHIND PICTURE*/
+.image-text-container {
+  position: relative;
+  display: block; /* or use display: block; depending on your layout */
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+.overlay-text {
+  font-size: 2.5rem;
+  color: black;
+  position: relative;
+
+  z-index: 1; 
+  padding-top: 50px;
+}
+
+
+
+
+
+/* TRAVELPAGE*/
+
+.container {
+  display: flex;
+}
+
+.left,
+.right {
+  flex-basis: 50%; /* Each part takes up 50% of available width */
+  overflow: auto; /* Allow scrolling if content overflows */
+}
+
+.left {
+  background-color: lightsteelblue;
+}
+
+.right {
+  background-color: darkkhaki;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.images {
+  max-width: 90%;
+  height: auto;
+}
+
+.selected-country {
+  font-weight: bold;
+  font-size: 1vw;
+}
+
+.space {
+  margin-left: 20px;
+  margin-right: 20px;
+}
